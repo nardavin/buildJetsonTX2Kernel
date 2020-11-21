@@ -17,7 +17,7 @@ echo "$PWD"
 
 wget -N https://developer.nvidia.com/embedded/r32-2-3_Release_v1.0/Sources/T186/public_sources.tbz2
 # l4t-sources is a tbz2 file
-tar -xvf public_sources.tbz2  Linux_for_Tegra/source/public/kernel_src.tbz2 --strip-components=3
+tar -xvf public_sources.tbz2  public_sources/kernel_src.tbz2 --strip-components=1
 tar -xvf kernel_src.tbz2
 # Space is tight; get rid of the compressed kernel source
 rm -r kernel_src.tbz2
